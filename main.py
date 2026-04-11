@@ -28,7 +28,7 @@ graph = builder.compile()
 # Run it
 if __name__ == "__main__":
     topic = input("Enter a blog topic: ")
-    result = graph.invoke({"topic": topic, "outline": None, "blog_post": None})
+    result = graph.invoke({"topic": topic, "outline": None, "blog_post": None, "research": None})
     
     print("\n" + "="*60)
     print("FINAL BLOG POST")

@@ -3,3 +3,6 @@ langchain-google-genai
 langgraph
 python-dotenv
 pydantic<2
+tavily-python
+fastapi
+uvicorn
